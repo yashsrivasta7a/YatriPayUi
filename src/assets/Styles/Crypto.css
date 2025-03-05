@@ -1,0 +1,40 @@
+.crypto-icon {
+    position: absolute;
+    font-size: 30px;
+    opacity: 0.8;
+    transition: transform 0.3s;
+    animation: float 4s ease-in-out infinite;
+}
+
+.BTC {
+    left: 15%;
+    top: 30%;
+}
+
+.ETH {
+    left: 20%;
+    bottom: 20%;
+}
+
+.DOGE {
+    right: 10%;
+    top: 25%;
+    color: red;
+}
+
+.BNB {
+    right: 20%;
+    bottom: 20%;
+    color: green;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 600px) {
+    .crypto-icon {
+        display: none; 
+    }
+}
