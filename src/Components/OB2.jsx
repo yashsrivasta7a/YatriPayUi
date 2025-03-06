@@ -10,10 +10,10 @@ function OB2() {
         <div className="logo">
         <img src={logo} alt="YatriPay" />
       </div>
-        <div className="OB2-text">
-          <h1>Book Hotel
-         </h1>
-          <h1> & Flights</h1>
+        <div className="content-text">
+          <p>
+            Book Hotel & Flights
+         </p>
         </div>
         <img src={ob2} alt="hotelbooking" className="Flight" />
 
