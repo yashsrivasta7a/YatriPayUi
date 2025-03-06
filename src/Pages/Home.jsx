@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
 import calendar from "../assets/calendar.svg";
-import logo from "../assets/yatripay_logo.svg"; // Fix the import path
+import logo from "../assets/Yatripay_logo.svg"; 
 
 function Home() {
   const navigate = useNavigate();
