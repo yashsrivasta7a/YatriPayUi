@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../assets/Styles/forgotPassword.css";
 import { sendOtp, verifyOtp, resetPassword } from "../services/authService";
-import logo from "../assets/yatripay_logo.svg";
+import logo from "../assets/Yatripay_logo.svg";
 
 const ForgotPassword = () => {
   const [step, setStep] = useState(1); // Steps: 1 -> Email, 2 -> OTP, 3 -> Reset Password

@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/Styles/Signup.css";
 import google from "../assets/google.svg";
 import facebook from "../assets/facebook.svg";
-import logo from "../assets/yatripay_logo.svg"
+import logo from "../assets/Yatripay_logo.svg"
 import CryptoFloatingIcons from "../Components/CryptoFloatingIcons";
 import '../assets/Styles/crypto.css'
 import Signup from "./Signup";

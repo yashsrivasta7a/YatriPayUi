@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
 import ob3 from "../assets/ob3.svg";
-import logo from "../assets/yatripay_logo.svg"
+import logo from "../assets/Yatripay_logo.svg"
 function OB3() {
   const navigate = useNavigate();
   return (
