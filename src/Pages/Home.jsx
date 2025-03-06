@@ -1,7 +1,6 @@
 import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
-import GlowEffect from "../Components/GlowEffect";
 import calendar from "../assets/calendar.svg";
 import logo from "../assets/yatripay_logo.svg"
 function Home() {
