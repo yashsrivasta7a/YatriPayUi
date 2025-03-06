@@ -33,7 +33,7 @@ function Onboarding() {
       </Splide>
 
       <button className="navigate-btn" onClick={() => navigate("/home")}>
-        Go to Home
+       Next
       </button>
     </div>
   );
