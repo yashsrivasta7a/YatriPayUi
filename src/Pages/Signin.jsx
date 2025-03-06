@@ -6,8 +6,10 @@ import logo from "../assets/Yatripay_logo.svg"
 import CryptoFloatingIcons from "../Components/CryptoFloatingIcons";
 import '../assets/Styles/Crypto.css'
 import Signup from "./Signup";
+import { useNavigate } from "react-router-dom";
 
 function Signin() {
+  const navigate = useNavigate();
   return (
     <div className="content">
       <div className="signup-container">
@@ -45,12 +47,19 @@ function Signin() {
             className="form-control password-signin"
             placeholder="Password"
           />
-         <a href="/password" className="forget-pwd-btn">Forgot Password ?</a>
+           <span onClick={() => navigate("/password")} className="forget-pwd-btn" style={{ cursor: "pointer", color: "yellow" }}>
+           Forgot Password ?
+          </span>
+        
         </div>
        
         <button className="btn">SUBMIT</button>
 
-        <p className="login-link">Not signed in yet?  <a href="/signup">Sign up</a></p>
+        <p className="login-link">Not signed in yet?  {" "}
+        <span onClick={() => navigate("/signup")} style={{ cursor: "pointer", color: "yellow", fontWeight: "bold" }}>
+            SignUp
+          </span>
+        </p>
         <p className="terms">
         Terms of Service & Privacy Policy
         </p>
