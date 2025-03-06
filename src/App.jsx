@@ -9,6 +9,8 @@ import OB2 from "./Pages/OB2";
 import OB3 from "./Pages/OB3";
 import OB4 from "./Pages/OB4";
 import GlowEffect from "./Components/GlowEffect";
+import OB5 from "./Pages/OB5";
+import OB6 from "./Pages/OB6";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/ob2" element={<OB2 />} />
           <Route path="/ob3" element={<OB3 />} />
           <Route path="/ob4" element={<OB4 />} />
+          <Route path="/ob5" element={<OB5 />} />
+          <Route path="/ob6" element={<OB6 />} />
         </Routes>
       </div>
       <div className="glow-background">

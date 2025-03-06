@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 html, body {
   margin: 0;
@@ -81,6 +81,25 @@ width: 15rem;
 .OB2-text h1 {
   margin: 0 0 10px 0; 
   padding: 0;
+}
+
+.OB5-text{
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0px;
+  gap: 0px;
+}
+
+.OB5-text h1 {
+  margin: 0 0 10px 0; 
+  padding: 0;
+  font-weight: 400;
+}
+
+.OB5-TEXT2 h1{
+  margin: 0px ;
+  padding: 0px;
+font-size: 6rem;
 }
 
 .Flight{
