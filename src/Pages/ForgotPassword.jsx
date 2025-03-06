@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/styles/forgotPassword.css";
+import "../assets/Styles/forgotPassword.css";
 import { sendOtp, verifyOtp, resetPassword } from "../services/authService";
 import logo from "../assets/yatripay_logo.svg";
 
