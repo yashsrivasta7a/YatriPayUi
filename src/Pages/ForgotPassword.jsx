@@ -33,7 +33,7 @@ const ForgotPassword = () => {
   };
 
   return (
-    <div className="content">
+    <div className="content-container">
       <div>
         <div className="logo">
           <img src={logo} alt="YatriPay" />

@@ -10,8 +10,8 @@ import { useNavigate } from "react-router-dom";
 function Signup() {
   const navigate = useNavigate();
   return (
-    <div className="content">
-      <div className="signup-container">
+    <div className="content-container">
+      <div >
         <div className="logo">
           <img src={logo} alt="YatriPay" />
         </div>

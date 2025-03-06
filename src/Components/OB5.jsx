@@ -1,11 +1,17 @@
 import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
+import logo from '../assets/Yatripay_logo.svg'
 function OB5() {
   const navigate = useNavigate();
   return (
     <div className="content">
-      <div className="OB5-text">
+              <div className="logo">
+              <img src={logo} alt="YatriPay" />
+            </div>
+      <div className="OB5-text" style={{
+        marginTop:'4rem'
+      }}>
         <h1>Unmatched Returns</h1>
         <h1>with Staking</h1>
       </div>
@@ -19,9 +25,7 @@ function OB5() {
         <p>Annual return with</p>
         <p style={{color:'yellow'}}>yatripay</p></div>
       </div>
-      <button className="btn" onClick={() => navigate("/ob6")}>
-        Next
-      </button>
+    
     </div>
   );
 }

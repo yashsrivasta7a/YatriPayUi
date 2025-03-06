@@ -7,7 +7,7 @@ import logo from "../assets/Yatripay_logo.svg";
 function Home() {
   const navigate = useNavigate();
   return (
-    <div className="content">
+    <div className="content-container">
       <div className="logo">
         <img src={logo} alt="YatriPay" />
       </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
-import ob6 from "../assets/ob6.svg";
+import ob3 from "../assets/OB3.svg";
 import logo from "../assets/Yatripay_logo.svg"
-function OB6() {
+function OB3() {
   const navigate = useNavigate();
   return (
       <div className="content">
@@ -11,17 +11,14 @@ function OB6() {
         <img src={logo} alt="YatriPay" />
       </div>
         <div className="OB2-text">
-          <h1>Zero Fees & Cashback Reward
+          <h1>Performance Overview
          </h1>
-         <h1>on YatriPay Transactions</h1>
         </div>
-        <img src={ob6} alt="rewards" className="performance" />
-        <button className="btn" onClick={() => navigate("/home")}>
-          Next
-        </button>
+        <img src={ob3} alt="performance" className="performance" />
+        
       </div>
 
   );
 }
 
-export default OB6;
+export default OB3;

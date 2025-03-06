@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 function Signin() {
   const navigate = useNavigate();
   return (
-    <div className="content">
+    <div className="content-container">
       <div className="signup-container">
       <div className="logo">
         <img src={logo} alt="YatriPay" />
