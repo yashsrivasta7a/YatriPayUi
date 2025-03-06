@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/Styles/crypto.css"
+import "../assets/Styles/Crypto.css"
 import BTC from "../assets/bitcoin.svg";
 import ETH from "../assets/Eth.svg";
 import DOGE from "../assets/Doge.svg";

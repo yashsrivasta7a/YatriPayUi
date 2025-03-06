@@ -4,7 +4,7 @@ import google from "../assets/google.svg";
 import facebook from "../assets/facebook.svg";
 import logo from "../assets/Yatripay_logo.svg"
 import CryptoFloatingIcons from "../Components/CryptoFloatingIcons";
-import '../assets/Styles/crypto.css'
+import '../assets/Styles/Crypto.css'
 import Signup from "./Signup";
 
 function Signin() {
