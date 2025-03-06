@@ -10,11 +10,10 @@ function OB4() {
         <div className="logo">
         <img src={logo} alt="YatriPay" />
       </div>
-        <div className="OB2-text">
-          <h1>Chance to win an iphone
-          & a trip
-         </h1>
-
+        <div className="content-text">
+          <p>
+            Chance to win an iphone & a trip
+         </p>
         </div>
         <img src={ob2} alt="hotelbooking" className="Flight" />
       

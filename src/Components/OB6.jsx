@@ -10,10 +10,10 @@ function OB6() {
         <div className="logo">
         <img src={logo} alt="YatriPay" />
       </div>
-        <div className="OB2-text">
-          <h1>Zero Fees & Cashback Reward
-         </h1>
-         <h1>on YatriPay Transactions</h1>
+        <div className="content-text">
+          <p>
+            Zero Fees & Cashback Reward on YatriPay Transactions
+         </p>
         </div>
         <img src={ob6} alt="rewards" className="performance" />
        

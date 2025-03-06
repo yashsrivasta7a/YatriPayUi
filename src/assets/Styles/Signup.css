@@ -97,11 +97,8 @@ input {
 button {
     width: 210px;
     height: 40px;
-    top: 632px;
-    left: 607px;
     border-radius: 13px;
     background: #4BAF2A;
-
 }
 
 .submit-btn {

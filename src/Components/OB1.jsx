@@ -1,9 +1,9 @@
 import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
-import ob3 from "../assets/OB3.svg";
-import logo from "../assets/Yatripay_logo.svg"
-function OB3() {
+import calendar from "../assets/calendar.svg";
+import logo from "../assets/Yatripay_logo.svg"; 
+function OB4() {
   const navigate = useNavigate();
   return (
       <div className="content">
@@ -11,15 +11,12 @@ function OB3() {
         <img src={logo} alt="YatriPay" />
       </div>
         <div className="content-text">
-          <p>
-            Performance Overview
-         </p>
+          <p>365 Days Withdrawal</p>
         </div>
-        <img src={ob3} alt="performance" className="performance" />
-        
+        <img src={calendar} alt="hotelbooking" className="Flight" />
       </div>
 
   );
 }
 
-export default OB3;
+export default OB4;
