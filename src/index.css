@@ -51,7 +51,7 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 200px; 
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .content .content-text p {
@@ -59,6 +59,10 @@ body {
   font-weight: 700;
   margin: 0 auto;
   width: 100%;
+}
+
+.content-text h1{
+  font-size: 6rem;
 }
 
 .content-container{

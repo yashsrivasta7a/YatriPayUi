@@ -9,13 +9,28 @@ function OB5() {
       <div className="logo">
         <img src={logo} alt="YatriPay" />
       </div>
-      <div className="content-text">
-        <p>Unmatched Returns with Staking Annual return with</p>
-        <p>30% p.a.</p>
-        <p style={{ color: "yellow" }}>yatripay</p>
+      <div className="content-text" style={{
+        lineHeight:'1',
+        
+      }}>
+        <p  style={{
+          fontWeight:"200"
+        }} >Unmatched Returns</p>
+        <p  style={{
+          fontWeight:"200"
+        }} >with Staking</p>
+        <h1>30% p.a.</h1>
+      </div>
+      <div style={{
+        display:'flex',
+        gap:'0.4rem',
+        marginTop:'0rem'
+      }}>
+        <p>Annual return with</p>{" "}<p style={{ color: "yellow" }}>yatripay</p>
       </div>
     </div>
   );
 }
 
 export default OB5;
+
