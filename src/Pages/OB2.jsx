@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
-import ob2 from "../assets/ob2.svg";
+import ob2 from "../assets/OB2.svg";
 import logo from "../assets/Yatripay_logo.svg"
 function OB2() {
   const navigate = useNavigate();
